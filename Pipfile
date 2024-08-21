@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+yfinance = "==0.2.41"
+crewai = {extras = ["tools"], version = "*"}
+langchain = "==0.1.20"
+langchain-openai = "==0.1.7"
+langchain-community = "==0.0.38"
+duckduckgo-search = "==5.3.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
